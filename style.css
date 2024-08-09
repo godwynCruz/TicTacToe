@@ -1,0 +1,21 @@
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+}
+
+#cell-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+button {
+    justify-items: center;
+    align-items: center;
+}
